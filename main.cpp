@@ -22,7 +22,7 @@ void Division(double x, double y);
 void Multiplication(double x, double y);
 void Exponentiation(double x, double y);
 void Modulous(double x, double y);
-void Print();
+string Print();
 };
 
 int main()
