@@ -16,12 +16,12 @@ double m_x,m_y;
 public:
 Rational(); //Do we need this?
 Rational (double x, double y); //If we have this?
-void Adding();
-void Subtraction();
-void Division();
-void Multiplication();
-void Exponentiation();
-void Modulous();
+void Adding(double x, double y);
+void Subtraction(double x, double y);
+void Division(double x, double y);
+void Multiplication(double x, double y);
+void Exponentiation(double x, double y);
+void Modulous(double x, double y);
 void Print();
 };
 
