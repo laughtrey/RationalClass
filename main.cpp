@@ -1,3 +1,4 @@
+
 /*
    File: main.cpp
    Description:
@@ -6,7 +7,7 @@
    Date of Creation:
  */
 #include <iostream>
-
+#include<string>
 class Rational
 {
 private:
@@ -22,7 +23,11 @@ double Division(const double& m_x, const double& m_y);
 double Multiplication(const double& m_x, double& m_y);
 std::string Print();
 };
-
+Rational::Rational()
+{
+  m_x =0;
+  m_y =0;
+}
 Rational::Rational(double x, double y)
 {
    m_x = x;
