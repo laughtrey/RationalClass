@@ -54,7 +54,7 @@ double Rational::Multiplication(const double& m_x, double& m_y)
 	return (m_x * m_y);
 }
 
-void Rational::Print()
+void Rational::Print() // prints the lines
 {
 	std::cout << m_x << " + " << m_y << " = " << Adding(m_x, m_y) << "\n";
 	std::cout << m_x << " - " << m_y << " = " << Subtraction(m_x, m_y) << "\n";
