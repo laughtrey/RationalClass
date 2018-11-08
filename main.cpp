@@ -66,5 +66,5 @@ int main()
 {
 	Rational alpha(5.0, -3.0);
 	alpha.Print();
-        return 0;
+       return 0;
 }
