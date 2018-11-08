@@ -16,12 +16,10 @@ double m_x,m_y;
 public:
 Rational(); //Do we need this?
 Rational(double x, double y); //If we have this?
-double Adding(double m_x, double m_y);
-double Subtraction(double m_x, double m_y);
-double Division(double m_x, double m_y);
-double Multiplication(double m_x, double m_y);
-double Exponentiation(double m_x, double m_y);
-double Modulous(double m_x, double m_y);
+double Adding(const double& m_x, const double& m_y);
+double Subtraction(const double& m_x, const double& m_y);
+double Division(const double& m_x, const double& m_y);
+double Multiplication(const double& m_x, double& m_y);
 std::string Print();
 };
 
