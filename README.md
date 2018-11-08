@@ -20,4 +20,4 @@
 
 |Documentation | Designer/Architect | Implementation | Testing |
 |--------------|--------------------|----------------|---------|
-|name          |name                |name            |name     |
+|All           |Raymond Laughrey    |Joshua Santillan | Phillip Tran|
