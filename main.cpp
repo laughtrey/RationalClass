@@ -15,16 +15,21 @@ double m_x,m_y;
 
 public:
 Rational(); //Do we need this?
-Rational (double x, double y); //If we have this?
-void Adding(double x, double y);
-void Subtraction(double x, double y);
-void Division(double x, double y);
-void Multiplication(double x, double y);
-void Exponentiation(double x, double y);
-void Modulous(double x, double y);
-string Print();
+Rational(double x, double y); //If we have this?
+double Adding(double m_x, double m_y);
+double Subtraction(double m_x, double m_y);
+double Division(double m_x, double m_y);
+double Multiplication(double m_x, double m_y);
+double Exponentiation(double m_x, double m_y);
+double Modulous(double m_x, double m_y);
+std::string Print();
 };
 
+Rational::Rational(double x, double y)
+{
+   m_x = x;
+   m_y = y;
+}
 int main()
 {
 
