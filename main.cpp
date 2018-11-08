@@ -56,11 +56,15 @@ double Rational::Multiplication(const double& m_x, double& m_y)
 
 void Rational::Print()
 {
-	std::cout << m_x << "/" << m_y;
+	std::cout << m_x << " + " << m_y << " = " << Adding(m_x, m_y) << "\n";
+	std::cout << m_x << " - " << m_y << " = " << Subtraction(m_x, m_y) << "\n";
+	std::cout << m_x << " / " << m_y << " = " << Division(m_x, m_y) << "\n";
+	std::cout << m_x << " * " << m_y << " = " << Multiplication(m_x, m_y) << "\n";
 }
 
 int main()
 {
-
+	Rational alpha(5.0, -3.0);
+	alpha.Print();
         return 0;
 }
